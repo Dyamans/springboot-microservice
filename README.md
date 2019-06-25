@@ -4,18 +4,18 @@ This is a user registration microservice running in a docker container. Routing 
 
 # Software used
 
-Spring boot
+Spring boot,
 Spring cloud Eureka,
 Spring cloud Zuul,
-Maven
-Docker
-Docker compose
+Maven,
+Docker,
+Docker compose,
 JDK 1.8
 
 # Services
 
-Eureka Service
-User Registration service (reg-service)
+Eureka Service,
+User Registration service (reg-service),
 Email Service (email-service)
 
 
