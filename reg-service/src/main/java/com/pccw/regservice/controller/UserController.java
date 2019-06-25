@@ -47,9 +47,7 @@ public class UserController {
         logger.info("Creating User : {}", user);
 
         //userValidator.validate(user, bindingResult);
-
-        userService.addUser(user);
-
+       
         try {
 
             userService.addUser(user);
