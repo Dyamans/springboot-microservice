@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: eureka-service
+
+server:
+  port: 8302
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: localhost
+  client:
+    #registerWithEureka: false
+    register-with-eureka: false
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eureka-service:8302/eureka/
+    healthcheck:
+      enabled: true
+
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 11000
+
+zuul:
+  routes:
+    reg-service:
+      path: /reg-service/**      
+      serviceId: reg-service
+    email-service:
+      path: /email-service/**      
+      serviceId: email-service
+    ribbon:
+      ConnectTimeout: 60000
+      ReadTimeout: 600000
+      eager-load:
+        enabled: true
+      
+
+      
+

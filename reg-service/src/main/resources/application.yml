@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: reg-service
+
+server:
+  port: 8300
+
+eureka:
+ client:
+  registerWithEureka: true
+  fetchRegistry: true
+  serviceUrl:
+    defaultZone: http://eureka-service:8302/eureka/

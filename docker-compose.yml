@@ -1,0 +1,35 @@
+version: '3'
+services:
+  eureka-service: 
+    image: eureka-service
+    container_name: eureka-service
+    build: ./EurekaServer    
+    ports:
+      - "8302:8302"
+  reg-service:
+    image: reg-service
+    container_name: reg-service
+    build: ./reg-service
+    ports:
+      - "8300:8300"
+    links:
+      - eureka-service    
+    environment:
+     eureka.client.serviceUrl.defaultZone: http://eureka-service:8302/eureka/
+     eureka.client.enabled: 'true'
+     eureka.instance.preferIpAddress: 'true'
+  email-service:
+    image: email-service
+    container_name: email-service
+    build: ./emailservice
+    ports:
+      - "8301:8301"
+    links:
+      - eureka-service      
+    environment:
+     eureka.client.serviceUrl.defaultZone: http://eureka-service:8302/eureka/
+     eureka.client.enabled: 'true'
+     eureka.instance.preferIpAddress: 'true'
+     
+     
+
