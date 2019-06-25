@@ -18,6 +18,22 @@ Eureka Service,
 User Registration service (reg-service),
 Email Service (email-service)
 
+#Service URL
+Eureka Dash Board URL
+http://your-docker-ip:8302/
+
+User Registration end points URL
+http://your-docker-ip:8302/reg-service/swagger.html
+
+
+Email Service
+http://your-docker-ip:8302/email-service/
+
+
+
+
+
+
 
 
 
