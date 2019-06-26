@@ -50,6 +50,16 @@ insert a user:
   "email": "dd@gmail.com" 
 }
 
+![image](https://user-images.githubusercontent.com/42631714/60142518-870ff200-97fd-11e9-8451-e2d2e62bd467.png)
+
+![image](https://user-images.githubusercontent.com/42631714/60142644-06052a80-97fe-11e9-9d43-2c71f67bfd25.png)
+
+![image](https://user-images.githubusercontent.com/42631714/60142667-2e8d2480-97fe-11e9-9d0e-5d5ce0ad9710.png)
+
+![image](https://user-images.githubusercontent.com/42631714/60142686-4795d580-97fe-11e9-9d5d-f5033e9cd1b2.png)
+
+![image](https://user-images.githubusercontent.com/42631714/60142743-8461cc80-97fe-11e9-845d-49185bedd14e.png)
+
 
 
 
