@@ -2,6 +2,11 @@
 
 This is an user registration microservice application running in a docker container. Routing through Zuul and client services registered in Eureka Service.
 
+User Registration Architecture
+---------------------------------
+
+![image](https://user-images.githubusercontent.com/42631714/60142518-870ff200-97fd-11e9-8451-e2d2e62bd467.png)
+
 Software used
 -----------------
 
@@ -71,12 +76,6 @@ inserting an user:
   "deleteFlag": "false", 
   "email": "valid email id" 
 }
-
-User Registration Architecture
----------------------------------
-
-![image](https://user-images.githubusercontent.com/42631714/60142518-870ff200-97fd-11e9-8451-e2d2e62bd467.png)
-
 
 
 Create user through swagger API
