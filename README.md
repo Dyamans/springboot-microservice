@@ -38,22 +38,22 @@ http://your-docker-ip:8302/reg-service/swagger-ui.html
 
 
 
-End points URL
+Complte end points
 --------------------
 find a user (GET)
-http://dockerip:port/reg-service/api/user/1
+http://dockerip:8302/reg-service/api/user/1
 
 find all users (GET)
-http://dockerip:port/reg-service/api/users/
+http://dockerip:8302/reg-service/api/users/
 
 Update an user (PUT)
-http://dockerip:port/reg-service/api/user/1
+http://dockerip:8302/reg-service/api/user/1
 
 Delete an user
-http://dockerip:port/reg-service/api/user/1  (Single user deletion with soft deletion)
+http://dockerip:8302/reg-service/api/user/1  (Single user deletion with soft deletion)
 
 Send an email through email service
-http://192.168.99.100:8302/email-service/api/email/your-email-id
+http://docker-ip:8302/email-service/api/email/your-email-id
 
 
 
@@ -92,5 +92,7 @@ Email Notification
 
 Users in the H2 Database
 -----------------------------
+
+You can use http://docker-ip:8300/h2 to view the H2 Dashboard, you can refer the password from application.prop
 
 ![image](https://user-images.githubusercontent.com/42631714/60142743-8461cc80-97fe-11e9-845d-49185bedd14e.png)
