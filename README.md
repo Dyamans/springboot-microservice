@@ -40,17 +40,22 @@ http://your-docker-ip:8302/email-service/
 Testing data:
 -------------
 
-insert a user:
+inserting an user:
 
 {
   "id": 1,
   "name": "John",
-  "phone": "0487736273"
+  "phone": "valid phone number"
   "deleteFlag": "false", 
-  "email": "dd@gmail.com" 
+  "email": "valid email id" 
 }
 
+User Registration Architecture
+---------------------------------
+
 ![image](https://user-images.githubusercontent.com/42631714/60142518-870ff200-97fd-11e9-8451-e2d2e62bd467.png)
+
+
 
 ![image](https://user-images.githubusercontent.com/42631714/60142644-06052a80-97fe-11e9-9d43-2c71f67bfd25.png)
 
